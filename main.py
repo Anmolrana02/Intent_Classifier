@@ -48,8 +48,8 @@ def main():
             predicted_intent = classifier.predict_intent(args.query)
 
             print("\n" + "="*50)
-            print(f"✅ Query: '{args.query}'")
-            print(f"🧠 Predicted L3 Intent: '{predicted_intent}'")
+            print(f" Query: '{args.query}'")
+            print(f" Predicted L3 Intent: '{predicted_intent}'")
             print("="*50 + "\n")
 
         except Exception as e:
